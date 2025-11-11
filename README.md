@@ -1,7 +1,7 @@
 # Predictive-Analysis-of-Energy-Consumption
 # End-to-End Energy Consumption Analysis Pipeline
 
-![Power BI Dashboard Screenshot](httpsGET_A_SCREENSHOT_OF_YOUR_DASHBOARD_AND_LINK_IT_HERE.png)
+![Power BI Dashboard Screenshot](httpsGET_A_SCREENSHOT_OF_YOUR_DASHBOARD_AND_LINK_IT_HERE.png) to be added
 
 ## 1. Project Overview
 
