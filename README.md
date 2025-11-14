@@ -27,15 +27,6 @@ The pipeline is built with a modern data stack, separating data engineering (DE)
 
 ---
 
-## 📁 Directory Structure
-
-Here is the project's repository structure:
-
-├── .github/workflows/ # (Optional) CI/CD pipelines ├── .gitignore ├── README.md ├── requirements.txt # Project dependencies ├── config/ │ └── config.ini # (GitIgnored) API keys, DB credentials ├── data/ # (GitIgnored) Local raw data samples │ └── .gitkeep ├── notebooks/ # Jupyter notebooks for EDA and model experimentation │ ├── 1-EDA.ipynb │ └── 2-Model-Prototyping.ipynb ├── src/ │ ├── init.py │ ├── ingestion/ # Scripts for data collection │ │ └── api_client.py │ ├── processing/ # Scripts for data cleaning & transformation │ │ └── clean.py │ ├── modeling/ # Scripts for training and prediction │ │ ├── forecast.py │ │ └── anomaly.py │ ├── storage/ # Scripts for database interaction │ │ └── db_manager.py │ ├── pipeline/ # Prefect flows that orchestrate the tasks │ │ └── main_flow.py │ └── visualization/ # Streamlit dashboard app │ └── app.py └── scripts/ # Utility scripts └── setup_db.sql # SQL script to initialize DB tables
-
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
