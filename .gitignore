@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# Configuration & Secrets
+# IMPORTANT: Never commit your credentials!
+config/config.ini
+*.env
+.env*
+*.key
+
+# Data files
+# Best practice is to not track data in Git
+data/
+*.csv
+*.parquet
+*.db
+*.sqlite3
+
+# IDE & OS-specific
+.vscode/
+.idea/
+.DS_Store
+*.log
