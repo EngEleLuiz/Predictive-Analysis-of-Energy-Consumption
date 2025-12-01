@@ -21,7 +21,7 @@ The pipeline is built with a modern data stack, separating data engineering (DE)
 * **Storage:** **PostgreSQL** is used as the data warehouse. It stores raw ingested data, cleaned/transformed data, and the final model outputs (predictions and anomalies).
 * **Pipeline & Orchestration:** **Prefect** is used to schedule and manage the entire ETLT (Extract, Transform, Load, Train) process. The pipeline is scheduled to run daily (e.g., at midnight) to fetch new data and retrain models.
 * **Data Science Models:**
-    * **Forecasting:** A **Prophet** or **SARIMA** model is trained on historical data to predict future demand.
+    * **Forecasting:** A **Random Forest** or **SARIMA** model is trained on historical data to predict future demand.
     * **Anomaly Detection:** An **Isolation Forest** algorithm identifies data points that are "unusual" based on historical patterns.
 * **Serving & Visualization:** The final predictions and flagged anomalies are written back to the PostgreSQL database. A dashboard built in **Streamlit** (or **Power BI**) reads from this database to display the "network status" in near real-time.
 
