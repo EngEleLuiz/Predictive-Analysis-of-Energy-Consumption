@@ -8,7 +8,6 @@ psycopg2-binary
 
 # Data Science & Modeling
 scikit-learn        # For IsolationForest
-prophet             # For Forecasting (or use pmdarima for SARIMA)
 # pmdarima
 
 # Pipeline Orchestration
