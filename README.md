@@ -43,7 +43,7 @@ The pipeline is built with a modern data stack, separating data engineering (DE)
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [[https://github.com/EngEleLuiz/PQ_Classification_Pipeline]
     cd your-repo-name
     ```
 
