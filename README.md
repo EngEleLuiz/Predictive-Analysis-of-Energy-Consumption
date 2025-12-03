@@ -1,4 +1,7 @@
 # ⚡ Energy Load Forecasting and Anomaly Detection Pipeline
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 This project implements an end-to-end data pipeline to forecast energy consumption (kWh) and detect real-time anomalies. It ingests data from public APIs, processes it, trains models, and serves the results to a dashboard.
 
@@ -81,3 +84,7 @@ The pipeline is built with a modern data stack, separating data engineering (DE)
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## 👨‍💻 Author
+
+**[Luiz Rosa]** *Power Systems Engineer | Python Developer* [[LinkedIn](https://www.linkedin.com/in/luiz-gustavo-rosa-12407536b/)]
